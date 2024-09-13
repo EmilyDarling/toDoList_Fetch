@@ -1,12 +1,21 @@
 
-/* 
-
-    You can write your own styles here...
+ul li{
+    width: 500px;
+    margin: 0 auto ;
+    list-style: none;
+}
+.xBtn{
+    opacity: 0.1;
+}
+.xBtn:hover{
+    opacity: 1;
+}
+.inputLine{
+    width: 500px;
+    margin: 0 auto ;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+}
+input{
+    border: none;
+    width: 100%;
+}
